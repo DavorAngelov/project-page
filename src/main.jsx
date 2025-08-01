@@ -12,6 +12,7 @@ import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 
+
 createRoot(document.getElementById('root')).render(
     <Router>
         <Navbar/>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/analysis" element={<Analysis />} />
                 <Route path="/models" element={<Models />} />
                 <Route path="/contact" element={<Contact />} />
+
             </Routes>
         </div>
         <Footer/>

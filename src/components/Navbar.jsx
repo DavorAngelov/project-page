@@ -24,7 +24,7 @@ const Navbar = () => {
                     За нас
                 </NavLink>
             </nav>
-            <NavLink to="/contact" className="border border-gray-500 px-4 py-2 rounded hover:text-blue-600 transition-colors cursor-pointer">
+            <NavLink to="/contact" className="border border-gray-500 px-4 py-2 rounded-full  hover:text-blue-600 transition-colors cursor-pointer">
                 Контакт
             </NavLink>
         </header>
