@@ -10,6 +10,7 @@ import Analysis from "./pages/Analysis.jsx";
 import Models from "./pages/Models.jsx";
 import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import Education from "./pages/Education.jsx";
 
 
 
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/analysis" element={<Analysis />} />
                 <Route path="/models" element={<Models />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/education" element={<Education />} />
 
             </Routes>
         </div>
