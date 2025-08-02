@@ -60,7 +60,7 @@ const About = () => {
                         {/* icons */}
                         <div className="grid grid-cols-5 gap-3 mb-6">
                             <a
-                                href="https://www.google.com/maps/place/Faculty+of+Computer+Science+and+Engineering/@41.9980733,21.4096973,17z"
+                                href="https://www.google.com/maps/place/Faculty+of+Computer+Science+%26+Engineering/@42.0041222,21.406973,17z/data=!3m1!4b1!4m6!3m5!1s0x13541443605aa4ab:0x33d56647e5b87264!8m2!3d42.0041182!4d21.4095479!16s%2Fg%2F1hff1_crn?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center hover:bg-blue-600 transition"

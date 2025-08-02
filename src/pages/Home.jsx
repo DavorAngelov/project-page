@@ -2,6 +2,7 @@ import React from 'react';
 import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer} from 'recharts';
 import heroImage from "../assets/drones-in-construction.png"
 import {BarChart3, Brain, BookOpen} from "lucide-react";
+import {useNavigate} from "react-router-dom";
 
 const Home = () => {
     const data = [
@@ -15,6 +16,8 @@ const Home = () => {
         {depth: 14, stability: 49},
         {depth: 16, stability: 40},
     ];
+
+    const navigate = useNavigate();
 
     return (
         <div className="min-h-screen  bg-gray-50 text-gray-800">
@@ -36,8 +39,18 @@ const Home = () => {
                         {/* buttons maybe add more or remove */}
                         <div className="flex space-x-4 mb-16">
                             <button
-                                className="bg-blue-400  hover:bg-blue-200 px-8 py-3 rounded-full transition-colors cursor-pointer">
-                                Започни анализа
+                                className="bg-blue-400  hover:bg-blue-200 px-8 py-3 rounded-full transition-colors cursor-pointer" onClick={() => navigate('/projects')}>
+                                Прегледај анализи
+                            </button>
+                           <button
+                           className="bg-red-300  hover:bg-red-200 px-8 py-3 rounded-full transition-colors cursor-pointer" onClick={() => {
+                               navigate('/contact');
+                               /*to make the function run prop*/
+                               setTimeout(() => {
+                                   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+                               }, 0);
+                           }}>
+                                Поднеси барање за анализа
                             </button>
                         </div>
 
