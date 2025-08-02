@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "title": "Изградба на мост на Вардар",
+    "description": "Мост со преднапрегнат бетон, анализа на товар и динамика.",
+    "image": "most.jpg",
+    "overview": "Овој проект вклучува изградба на модерен мост со користење на напредни техники за анализа на товар.",
+    "dataMethods": "Сензори за мерење на товар, податоци од сообраќај, климатски услови.",
+    "problem": "Прецизно предвидување на структурниот замор и безбедносни ризици.",
+    "methodology": "Прибирање на теренски податоци, нивна обработка и анализа преку ML.",
+    "algorithms": "Linear Regression, Random Forest",
+    "models": "Stress Prediction Model, Load Capacity Estimator",
+    "conclusion": "Со ML можеме да предвидиме потенцијални слабости и навремено интервенираме.",
+    "chartData": [
+      { "year": "2020", "stress": 30 },
+      { "year": "2021", "stress": 45 },
+      { "year": "2022", "stress": 40 },
+      { "year": "2023", "stress": 50 },
+      { "year": "2024", "stress": 55 }
+    ],
+    "xKey": "year",
+    "yKey": "stress"
+  },
+  {
+    "id": 2,
+    "title": "Автопат Скопје – Штип",
+    "description": "Инфраструктурен проект со фокус на безбедност и проток.",
+    "image": "avtopat.jpg",
+    "overview": "Овој автопат овозможува побрз и побезбеден транспортен проток меѓу Скопје и Штип.",
+    "dataMethods": "Податоци од камери, сензори на патиштата, историски инциденти.",
+    "problem": "Идентификација на точки со висок ризик од сообраќајни несреќи.",
+    "methodology": "Обработка на податоци и класификација на опасни зони.",
+    "algorithms": "Decision Tree, K-Means Clustering",
+    "models": "Traffic Flow Predictor, Accident Hotspot Detector",
+    "conclusion": "Превенција преку интелигентно предвидување води до значително подобрување на безбедноста.",
+    "chartData": [
+      { "month": "Јан", "traffic": 3200 },
+      { "month": "Фев", "traffic": 3400 },
+      { "month": "Мар", "traffic": 3600 },
+      { "month": "Апр", "traffic": 3550 },
+      { "month": "Мај", "traffic": 3700 }
+    ],
+    "xKey": "month",
+    "yKey": "traffic"
+  },
+  {
+    "id": 3,
+    "title": "Железничка станица Илинден",
+    "description": "Модерна реконструкција со BIM моделирање.",
+    "image": "zeleznicka.jpg",
+    "overview": "Реконструкција на стара железничка станица користејќи дигитални алатки и ML.",
+    "dataMethods": "BIM податоци, слики, трошоци, работен напредок.",
+    "problem": "Оптимизација на трошоци и време при реконструкција.",
+    "methodology": "Интеграција на BIM со ML за предвидување на потенцијални доцнења и пречекорувања на буџетот.",
+    "algorithms": "Neural Networks, Regression Analysis",
+    "models": "Cost Overrun Predictor, Efficiency Analyzer",
+    "conclusion": "Реконструкции се поефикасни кога се базираат на податоци.",
+    "chartData": [
+      { "phase": "Планирање", "efficiency": 70 },
+      { "phase": "Изградба", "efficiency": 85 },
+      { "phase": "Тестирање", "efficiency": 90 },
+      { "phase": "Завршување", "efficiency": 95 }
+    ],
+    "xKey": "phase",
+    "yKey": "efficiency"
+  },
+  {
+    "id": 4,
+    "title": "Санација на свлечиште во Тетово",
+    "description": "Геотехничка анализа и стабилизација на тлото.",
+    "image": "svleciste.jpg",
+    "overview": "Санација на критично подрачје со свлечиште користејќи податоци од терен и ML.",
+    "dataMethods": "Сензори за поместување, влажност, временски услови.",
+    "problem": "Предвидување на ново активирање на свлечиштето.",
+    "methodology": "Континуирано следење и анализа на геотехнички податоци.",
+    "algorithms": "Support Vector Machines, Time Series Forecasting",
+    "models": "Ground Movement Predictor, Stability Classifier",
+    "conclusion": "ML овозможува прецизно следење на земјишни ризици.",
+    "chartData": [
+      { "date": "01/2023", "movement": 2.5 },
+      { "date": "02/2023", "movement": 2.0 },
+      { "date": "03/2023", "movement": 1.8 },
+      { "date": "04/2023", "movement": 1.5 },
+      { "date": "05/2023", "movement": 1.2 }
+    ],
+    "xKey": "date",
+    "yKey": "movement"
+  }
+]

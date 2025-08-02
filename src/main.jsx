@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar.jsx";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Analysis from "./pages/Analysis.jsx";
 import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Education from "./pages/Education.jsx";

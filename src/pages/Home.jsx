@@ -39,11 +39,11 @@ const Home = () => {
                         {/* buttons maybe add more or remove */}
                         <div className="flex space-x-4 mb-16">
                             <button
-                                className="bg-blue-400  hover:bg-blue-200 px-8 py-3 rounded-full transition-colors cursor-pointer" onClick={() => navigate('/projects')}>
+                                className="bg-blue-400  hover:bg-blue-200 px-8 py-3 rounded-full transition-colors cursor-pointer shadow-xl" onClick={() => navigate('/projects')}>
                                 Прегледај анализи
                             </button>
                            <button
-                           className="bg-red-300  hover:bg-red-200 px-8 py-3 rounded-full transition-colors cursor-pointer" onClick={() => {
+                           className="bg-red-300  hover:bg-red-200 px-8 py-3 rounded-full transition-colors cursor-pointer shadow-xl" onClick={() => {
                                navigate('/contact');
                                /*to make the function run prop*/
                                setTimeout(() => {
